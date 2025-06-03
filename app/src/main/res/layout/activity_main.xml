@@ -6,9 +6,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="imaavalenzuela.movieapp.MainActivity">
+    tools:context="imaavalenzuela.movieapp.ui.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="androidx.navigation.fragment.NavHostFragment"

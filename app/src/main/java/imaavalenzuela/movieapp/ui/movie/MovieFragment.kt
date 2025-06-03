@@ -1,8 +1,8 @@
-package imaavalenzuela.movieapp
+package imaavalenzuela.movieapp.ui.movie
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.View
+import androidx.fragment.app.Fragment
 import kotlin.kmp.imaavalenzuela.movieapp.R
 import kotlin.kmp.imaavalenzuela.movieapp.databinding.FragmentMovieBinding
 

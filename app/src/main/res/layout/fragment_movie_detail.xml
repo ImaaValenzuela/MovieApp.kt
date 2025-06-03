@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="imaavalenzuela.movieapp.MovieDetailFragment">
+    tools:context="imaavalenzuela.movieapp.ui.movie.detail.MovieDetailFragment">
 
     <FrameLayout
         android:id="@+id/frameLayout"

@@ -1,4 +1,4 @@
-package imaavalenzuela.movieapp
+package imaavalenzuela.movieapp.ui
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
