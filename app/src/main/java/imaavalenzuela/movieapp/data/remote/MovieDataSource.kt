@@ -1,17 +1,14 @@
 package imaavalenzuela.movieapp.data.remote
 
 import imaavalenzuela.movieapp.data.model.MovieList
+import imaavalenzuela.movieapp.repository.WebService
+import imaavalenzuela.movieapp.utils.Const
 
-class MovieDataSource {
-    fun getUpcomingMovies(): MovieList {
-        return MovieList()
-    }
+class MovieDataSource(private val webService: WebService) {
+    suspend fun getUpcomingMovies(): MovieList = webService.getUpcomingMovies(Const.API_KEY)
 
-    fun getTopRatedMovies(): MovieList {
-        return MovieList()
-    }
+    suspend fun getTopRatedMovies(): MovieList = webService.getTopRatedMovies(Const.API_KEY)
 
-    fun getPopularMovies(): MovieList {
-        return MovieList()
-    }
+    suspend fun getPopularMovies(): MovieList = webService.getPopularMovies(Const.API_KEY)
+
 }
